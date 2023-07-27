@@ -3,3 +3,26 @@
 @use 'globals/reset';
 @use 'globals/typography';
 
+.first-bg-img-color{
+    height: 550px;
+    width: 400px;
+    background: $first-bg-img-color;
+    border-bottom-right-radius: 12rem;
+    border-bottom-left-radius: 12rem;
+    position: absolute;
+    top: 0;
+    left: -80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.second-bg-img-color{
+    height: 550px;
+    width: 400px;
+    background-color: $second-bg-img-color;
+    border-top-right-radius: 12rem;
+    border-top-left-radius: 12rem;
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
