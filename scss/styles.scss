@@ -38,6 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     .img-container{
         // align-self: center;
@@ -119,6 +120,26 @@
                     .three-dots{
                         .dots{
                             cursor: pointer;
+                        }
+                    }
+                }
+
+                .discussions{
+                    padding: .7rem .9rem;
+
+                    .first-section{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px 0;
+                        width: 80%;
+                        .answer{
+                            background-color: #dbdadc;
+                            border-radius: .6rem;
+                            padding: .7rem;
+
+                            .text{
+                                font-size: .8rem;
+                            }
                         }
                     }
                 }
