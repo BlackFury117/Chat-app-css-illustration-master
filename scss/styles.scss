@@ -41,6 +41,7 @@
 
     .img-container{
         // align-self: center;
+
         .phone{
             height: 550px;
             width: 300px;
@@ -54,12 +55,13 @@
                 background-color: #f5f3f8;
                 border-radius: 1.2rem;
                 height: 533px;
+                position: relative;
 
                 .top-gradient{
                     width: 100%;
                     height: 100px;
                     background: $first-bg-img-color;
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
                     border-top-right-radius: 1.2rem;
                     border-top-left-radius: 1.2rem;
                     border-bottom-left-radius: .4rem;
@@ -69,29 +71,33 @@
                     flex-direction: row;
                     justify-content: space-between;
                     align-items: center;
-                    padding: 1.5rem 1rem 0 1rem;
+                    padding: 1.7rem 1.3rem 0 1.3rem;
 
                     .icon{
                         display: flex;
                         align-items: center;
 
                         .left{
+                            cursor: pointer;
                             color: #ffffff;
                             margin-right: .6rem;
                         }
+
                         .portrait{
                             display: flex;
                             align-items: center;
+
                             .name{
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
-                                margin-bottom: .5rem;
+                                margin-bottom: .4rem;
 
                                 .name-2{
                                     font-size: 1rem;
                                     font-weight: 500;
                                     color: white;
+                                    margin-bottom: .2rem;
                                 }
 
                                 .time{
@@ -100,6 +106,7 @@
                                     margin-right: 1.2rem;
                                 }
                             }
+
                             .avatar{
                                 width: 45px;
                                 border-radius: 50%;
@@ -108,18 +115,26 @@
                             }
                         }
                     }
-                    .notch{
-                        width: 50%;
-                        height: 2.2rem;
-                        background-color: white;
-                        margin: 0 auto 0 auto;
-                        border-radius: 1rem;
-                        position: absolute;
-                        left: 50%;
-                        right: 50%;
-                        transform: translate(-50%, -50%);
-                        top: 12px;
+
+                    .three-dots{
+                        .dots{
+                            cursor: pointer;
+                        }
                     }
+                }
+
+                .notch{
+                    z-index: 10;
+                    width: 150px;
+                    height: 1.9rem;
+                    background-color: white;
+                    margin: 0 auto 0 auto;
+                    border-radius: 1rem;
+                    position: absolute;
+                    left: 50%;
+                    right: 50%;
+                    transform: translate(-50%, -50%);
+                    top: 10px;
                 }
             }
         }
