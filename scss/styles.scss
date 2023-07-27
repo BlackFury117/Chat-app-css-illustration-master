@@ -4,6 +4,7 @@
 @use 'globals/typography';
 
 .first-bg-img-color{
+    z-index: 2;
     height: 550px;
     width: 400px;
     background: $first-bg-img-color;
@@ -12,7 +13,7 @@
     position: absolute;
     top: 0;
     left: -80px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .second-bg-img-color{
@@ -24,5 +25,118 @@
     position: absolute;
     right: -80px;
     bottom: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img-container{
+        // align-self: center;
+        .phone{
+            height: 550px;
+            width: 300px;
+            background-color: white;
+            box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 1.7rem;
+            margin-right: 4rem;
+            padding: 0.5rem;
+
+            .surface{
+                background-color: #f5f3f8;
+                border-radius: 1.2rem;
+                height: 533px;
+
+                .top-gradient{
+                    width: 100%;
+                    height: 100px;
+                    background: $first-bg-img-color;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    border-top-right-radius: 1.2rem;
+                    border-top-left-radius: 1.2rem;
+                    border-bottom-left-radius: .4rem;
+                    border-bottom-right-radius: .4rem;
+                    position: relative;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 1.5rem 1rem 0 1rem;
+
+                    .icon{
+                        display: flex;
+                        align-items: center;
+
+                        .left{
+                            color: #ffffff;
+                            margin-right: .6rem;
+                        }
+                        .portrait{
+                            display: flex;
+                            align-items: center;
+                            .name{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin-bottom: .5rem;
+
+                                .name-2{
+                                    font-size: 1rem;
+                                    font-weight: 500;
+                                    color: white;
+                                }
+
+                                .time{
+                                    font-size: .7rem;
+                                    color: rgb(222, 220, 220);
+                                    margin-right: 1.2rem;
+                                }
+                            }
+                            .avatar{
+                                width: 45px;
+                                border-radius: 50%;
+                                border: 2px solid white;
+                                margin-right: .7rem;
+                            }
+                        }
+                    }
+                    .notch{
+                        width: 50%;
+                        height: 2.2rem;
+                        background-color: white;
+                        margin: 0 auto 0 auto;
+                        border-radius: 1rem;
+                        position: absolute;
+                        left: 50%;
+                        right: 50%;
+                        transform: translate(-50%, -50%);
+                        top: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .text-container{
+        width: 450px;
+
+        h1{
+            color: $heading-color;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p{
+            color: $text-color;
+            line-height: 1.5;
+        }
+    }
 }
