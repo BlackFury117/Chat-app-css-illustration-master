@@ -130,14 +130,55 @@
                     .first-section{
                         display: flex;
                         flex-direction: column;
-                        gap: 10px 0;
+                        gap: 8px 0;
                         width: 80%;
+                        margin-bottom: 1rem;
+
                         .answer{
-                            background-color: #dbdadc;
+                            background-color: #e3e2e3;
                             border-radius: .6rem;
-                            padding: .7rem;
+                            padding: .5rem;
 
                             .text{
+                                color: #ae3efb;
+                                font-size: .8rem;
+                            }
+                        }
+                    }
+
+                    .second-section{
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0 auto;
+                        gap: 8px 0;
+
+                        .img-animals{
+                            display: flex;
+                            justify-content: flex-end;
+                            gap: 0 8px;
+
+                            .dog{
+                                width: 50px;
+                                border-radius: 1rem;
+                            }
+                        }
+
+                        .answer-2bis{
+                            width: 50%;
+                        }
+
+                        .answer-2{
+                            background-color: white;
+                            border-radius: .6rem;
+                            padding: .5rem;
+                            width: 65%;
+                            display: flex;
+                            justify-content: flex-end;
+                            text-align: left;
+                            margin: 0 0 0 auto;
+
+                            .text-2{
+                                color: #6f6f71;
                                 font-size: .8rem;
                             }
                         }
