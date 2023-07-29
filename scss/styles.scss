@@ -44,7 +44,7 @@
         // align-self: center;
 
         .phone{
-            height: 550px;
+            height: 570px;
             width: 300px;
             background-color: white;
             box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2);
@@ -55,12 +55,12 @@
             .surface{
                 background-color: #f5f3f8;
                 border-radius: 1.2rem;
-                height: 533px;
+                height: 554px;
                 position: relative;
 
                 .top-gradient{
                     width: 100%;
-                    height: 100px;
+                    height: 80px;
                     background: $first-bg-img-color;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
                     border-top-right-radius: 1.2rem;
@@ -109,7 +109,7 @@
                             }
 
                             .avatar{
-                                width: 45px;
+                                width: 40px;
                                 border-radius: 50%;
                                 border: 2px solid white;
                                 margin-right: .7rem;
@@ -132,12 +132,12 @@
                         flex-direction: column;
                         gap: 8px 0;
                         width: 80%;
-                        margin-bottom: 1rem;
+                        margin-bottom: .7rem;
 
                         .answer{
                             background-color: #f0eff0;
                             border-radius: .6rem;
-                            padding: .5rem;
+                            padding: .4rem;
                             box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1);
 
                             .text{
@@ -152,7 +152,7 @@
                         flex-direction: column;
                         margin: 0 auto;
                         gap: 8px 0;
-                        margin-bottom: 1rem;
+                        margin-bottom: .7rem;
 
                         .img-animals{
                             display: flex;
@@ -173,7 +173,7 @@
                         .answer-2{
                             background-color: white;
                             border-radius: .6rem;
-                            padding: .5rem;
+                            padding: .4rem;
                             width: 65%;
                             display: flex;
                             justify-content: flex-start;
@@ -193,9 +193,10 @@
                         .answer-3{
                             background-color: #f0eff0;
                             border-radius: .6rem;
-                            padding: .5rem;
+                            padding: .4rem;
                             box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1);
                             width: 80%;
+                            margin-bottom: .7rem;
 
                             .text-3{
                                 color: #ae3efb;
@@ -206,23 +207,62 @@
                         .price{
                             .price-1{
                                 background: $first-bg-img-color;
-                                padding: .6rem;
+                                padding: .4rem 1rem;
                                 border-radius: .8rem;
                                 display: flex;
                                 justify-content: space-between;
                                 align-items: center;
+                                margin-bottom: .4rem;
+                                width: 90%;
 
                                 .time{
                                     display: flex;
                                     align-items: center;
                                     color: white;
-                                    font-size: .8rem;
+                                    font-size: .7rem;
 
                                     .circle-icon{
                                         margin-right: .5rem;
+                                        // margin-top: .10rem;
                                     }
                                 }
+
+                                .pricing{
+                                    color: white;
+                                    font-size: 1.1rem;
+                                    font-weight: 600;
+                                }
                             }
+
+                            .price-2{
+                                @extend .price-1;
+                            }
+                        }
+                    }
+
+                    .input-section{
+                        background-color: white;
+                        padding: .4rem;
+                        border-radius: 1.5rem;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        p{
+                            font-size: .8rem;
+                            font-weight: 500;
+                            color: $text-color;
+                        }
+
+                        div{
+                            background-color: #581e7f;
+                            border-radius: 50%;
+                            font-size: .6rem;
+                            font-weight: 500;
+                            padding: .6rem;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
                         }
                     }
                 }
