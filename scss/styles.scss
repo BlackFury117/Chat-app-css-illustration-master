@@ -236,13 +236,14 @@
 
                             .price-2{
                                 @extend .price-1;
+                                margin-bottom: 1rem;
                             }
                         }
                     }
 
                     .input-section{
                         background-color: white;
-                        padding: .4rem;
+                        padding: .5rem 1rem;
                         border-radius: 1.5rem;
                         display: flex;
                         justify-content: space-between;
@@ -251,14 +252,16 @@
                         p{
                             font-size: .8rem;
                             font-weight: 500;
-                            color: $text-color;
+                            color: #b8b5bd;
                         }
 
                         div{
                             background-color: #581e7f;
+                            color: white;
                             border-radius: 50%;
-                            font-size: .6rem;
-                            font-weight: 500;
+                            width: 32px;
+                            font-size: .8rem;
+                            font-weight: 700;
                             padding: .6rem;
                             display: flex;
                             justify-content: center;
