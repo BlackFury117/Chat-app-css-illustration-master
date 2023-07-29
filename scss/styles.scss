@@ -188,6 +188,43 @@
                             }
                         }
                     }
+
+                    .third-section{
+                        .answer-3{
+                            background-color: #f0eff0;
+                            border-radius: .6rem;
+                            padding: .5rem;
+                            box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1);
+                            width: 80%;
+
+                            .text-3{
+                                color: #ae3efb;
+                                font-size: .8rem;
+                            }
+                        }
+
+                        .price{
+                            .price-1{
+                                background: $first-bg-img-color;
+                                padding: .6rem;
+                                border-radius: .8rem;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                .time{
+                                    display: flex;
+                                    align-items: center;
+                                    color: white;
+                                    font-size: .8rem;
+
+                                    .circle-icon{
+                                        margin-right: .5rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
 
                 .notch{
