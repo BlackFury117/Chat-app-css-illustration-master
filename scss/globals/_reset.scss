@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: $body-bg-color;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 *,
