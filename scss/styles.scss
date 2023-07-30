@@ -38,11 +38,10 @@
 
 @include mobile-view{
     .second-bg-img-color{
-        height: 300px;
+        height: auto;
         right: -200px;
-        bottom: 0;
+        bottom: -20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        overflow-x: hidden;
     }
 }
 
@@ -59,6 +58,7 @@
     flex-wrap: wrap;
 
     .img-container{
+        // height: 100%;
         // align-self: center;
 
         .phone{
@@ -73,7 +73,7 @@
             .surface{
                 background-color: #f5f3f8;
                 border-radius: 1.2rem;
-                height: 554px;
+                max-height: 554px;
                 position: relative;
 
                 .top-gradient{
@@ -274,6 +274,7 @@
                         }
 
                         div{
+                            cursor: pointer;
                             background-color: #581e7f;
                             color: white;
                             border-radius: 50%;
@@ -322,29 +323,42 @@
 }
 
 @include mobile-view{
-    body{
-        // overflow-x: hidden;
-        height: auto;
-    }
 
     .container{
         width: 100%;
-        // flex-direction: column;
-        // position: static;
-        // display: flex;
-        // justify-content: center;
+        margin-top: 8rem;
         
         .img-container{
             margin-bottom: 2rem;
             .phone{
                 margin-right: 0;
                 justify-self: center;
-                // height: 570px;
+                max-height: 580px;
+
+                .surface{
+                    max-height: 565px;
+
+                    .discussions{
+                        .input-section{
+                            padding: .25rem 1rem;
+
+                            div{
+                                padding: .5rem;
+                                width: 29px;
+                            }
+                        }
+                    }
+                }
             }
         }
 
         .text-container{
             text-align: center;
+            padding: 0 1.7rem;
+
+            h1{
+                font-size: 2.2rem;
+            }
         }
     }
 }
