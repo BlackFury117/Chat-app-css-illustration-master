@@ -12,7 +12,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 - Flexbox
 - Mobile-first workflow
 
-Preview it here - [Chat app CSS illustration]() <br><br>
+Preview it here - [Chat app CSS illustration](https://blackfury117.github.io/Chat-app-css-illustration-master/) <br><br>
 
 ## Author
 
