@@ -12,10 +12,10 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 - Flexbox
 - Mobile-first workflow
 
-Preview it here - [Chat app CSS illustration](https://blackfury117.github.io/Chat-app-css-illustration-master/) <br><br>
+Preview it here - [Chat app CSS illustration](https://id-dev3.github.io/Chat-app-css-illustration-master/) <br><br>
 
 ## Author
 
-- Website - [Black Fury](https://blackfury117.github.io/)
+- Website - [Idris](https://id-dev3.github.io/)
 - Frontend Mentor - [@BlackFury117](https://www.frontendmentor.io/profile/BlackFury117)
-- Twitter - [@blackfury117](https://www.twitter.com/blackfury117)
+- Twitter - [@id_dev3](https://www.twitter.com/id_dev3)
